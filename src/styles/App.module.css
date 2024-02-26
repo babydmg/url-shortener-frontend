@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  padding: 0.7rem 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.generateURLBtn {
+  background-color: red;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  border: 1px solid red;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.generateURLBtn:hover {
+  background-color: white;
+  color: red;
+}
